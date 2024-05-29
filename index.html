@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/icn.png" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+        <title>CntDwnTmr</title>
+    </head>
+    <body>
+        <div class="inputs">
+            <input type="number" id="hrs" placeholder="Hrs" min="0">
+            <input type="number" id="mins" placeholder="Mins" min="0" max="59">
+            <input type="number" id="secs" placeholder="Secs" min="0" max="59">
+        </div>
+        <div class="container">
+            <div id="timer">
+                00 : 00 : 00
+            </div>
+            <div class="btn">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+                <button id="restart">Restart</button>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
